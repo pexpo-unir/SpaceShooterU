@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87c18ad7268aa14c9085df0b0702aa9, type: 3}
+  m_Name: FloatingEnemyControllerData
+  m_EditorClassIdentifier: 
+  <EnemyController>k__BackingField: {fileID: 5812985617328893992, guid: 5038c04e4964db94192879b0863d7161, type: 3}
+  <SimulatedInputDirection>k__BackingField: {fileID: 958108020881500630, guid: b585eb657eb12c94a821313ab61f8b6e, type: 3}
+  <PressShootRate>k__BackingField: 1.5
+  <ShipData>k__BackingField: {fileID: 11400000, guid: 64d8d3c2e277d3e4c9cc09908f219d45, type: 2}

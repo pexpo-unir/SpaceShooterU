@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2509283693218100784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4231497533497728295}
+  - component: {fileID: 7483254958043968997}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: f8c37234d19cf364596bbaafb97f223c, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4231497533497728295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2509283693218100784}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &7483254958043968997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2509283693218100784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39751790a328d7044a314115b459c605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <RoundDatas>k__BackingField:
+  - {fileID: 11400000, guid: bfa46122aea28174895acf9dc7686b75, type: 2}
+  - {fileID: 11400000, guid: f673d4202bff46047bbba430972eb89f, type: 2}
+  - {fileID: 11400000, guid: c8d8074cb7b169541ad08f7c04760d93, type: 2}
+  - {fileID: 11400000, guid: 5f29af53fce21274e97667338afb4ebc, type: 2}
+  - {fileID: 11400000, guid: 108e0d092f03e624aa0c6bcdc6bcb44a, type: 2}
+  enemyController: {fileID: 5812985617328893992, guid: 5038c04e4964db94192879b0863d7161, type: 3}
+  shipGameObject: {fileID: 2937014855245388375, guid: 82630bcc98bc8084d9364492f1a40df5, type: 3}
+  shipData: {fileID: 11400000, guid: 408a3fff1e45ccd45a343da6f3273495, type: 2}
+  bossGameObject: {fileID: 3970999800104899422, guid: e565671e12ac6cd49b9c3999a5f6f351, type: 3}
+  <SpawnBounds>k__BackingField:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
